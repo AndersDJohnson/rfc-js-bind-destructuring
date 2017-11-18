@@ -5,12 +5,16 @@ We should be able to destructure with binding operator:
 
 ```js
 const { ::log } = console
+
+log('foo')
 ```
 
 Equivalent to:
 
 ```js
 const log = console.log.bind(console)
+
+log('foo')
 ```
 
 ---
