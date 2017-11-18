@@ -17,6 +17,12 @@ const log = console.log.bind(console)
 log('foo')
 ```
 
+or:
+
+```js
+console.log('foo')
+```
+
 ---
 
 To be determined how to interact with nested desctructuring, but either:
