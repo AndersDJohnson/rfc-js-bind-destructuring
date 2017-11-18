@@ -27,7 +27,7 @@ console.log('foo')
 
 To be determined how to interact with nested desctructuring, but either:
 
-(A) Bind to direct parent:
+(A) Bind to nearest parent:
 
 ```js
 const { foo: { ::bar } } = target
